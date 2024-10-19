@@ -24,6 +24,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
         const li = document.createElement('li');
         li.textContent = taskText;
+        li.classList.add('task-item');
 
         const removeButton = document.createElement('button');
         removeButton.textContent = "Remove";
